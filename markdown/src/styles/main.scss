@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#editor {
+    width: 70vw;
+}
+
+#preview {
+    width: 70vw;
+    padding: 16.5px 14px;
+}
