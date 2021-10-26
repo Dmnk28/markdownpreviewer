@@ -10,32 +10,31 @@ import Preview from './components/_preview';
 const App = () => {
 
   const defaultInput = `
-  # H1
-  ## H2
+# H1
+## H2
   
-  [link](https://do-webdev.de)
+[link](https://do-webdev.de)
   
-  the \`Code is here\` in Text 
-  \`\`\` 
-  if (x) {
-    this
-  } else {
-    that
-  }
-  \`\`\`
-  **bold**
-  _italic_
+the \`<html>Code is here</html>\` in Text 
+\`\`\` 
+if (x) {
+  this
+} else {
+  that
+}
+\`\`\`
+**bold**
+_italic_
   
-  >Blockquote
+>Blockquote
 
-  - Ullist
-  - second item
+- Ullist
+- second item
 
-  1 Ollist
-  1 second Item
+1. Ollist
+1. second Item
 
-  ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
-  `;
+![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`;
 
   const [input, setInput] = useState(defaultInput);
   const [converted, setConverted] = useState(marked(defaultInput));

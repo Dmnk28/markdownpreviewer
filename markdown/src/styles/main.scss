@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
 }
 
 #editor {
@@ -13,9 +14,20 @@ body {
     width: 70vw;
     padding: 16.5px 14px;
 
-    p {
+    code {
+        color: rgb(58, 56, 56);
+        margin: auto 0.5rem;
+    }
+
+    pre {
+        padding: 2rem;
+        background: rgb(170, 164, 164);
+        border-radius: 25px;
+    }
+
     img {
-        max-width: 300px;
-        max-height: 400px;
-    }}
+        margin: 3rem auto;
+        max-width: 50%;
+        max-height: 30%;
+    }
 }

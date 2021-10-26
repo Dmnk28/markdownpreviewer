@@ -9,6 +9,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 4rem;
 }
 
 #editor {
@@ -18,5 +19,22 @@ body {
 #preview {
   width: 70vw;
   padding: 16.5px 14px;
+}
+
+#preview code {
+  color: #3a3838;
+  margin: auto 0.5rem;
+}
+
+#preview pre {
+  padding: 2rem;
+  background: #aaa4a4;
+  border-radius: 25px;
+}
+
+#preview img {
+  margin: 3rem auto;
+  max-width: 50%;
+  max-height: 30%;
 }
 /*# sourceMappingURL=main.css.map */
