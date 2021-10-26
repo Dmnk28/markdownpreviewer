@@ -1,16 +1,18 @@
 import React from 'react';
 import marked from 'marked'
 
-
 import Textfield from '@mui/material/TextField';
 
+marked.setOptions({
+    gfm: true,
+    breaks:true
+});
 
-
-const Editor = ({input, setInput, converted, setConverted}) => {
+const Editor = ({input, setInput, setConverted}) => {
 
     const handleEditorInput = (event) => {
         setInput(event.target.value);
-        setConverted(marked(input));
+        setConverted(marked(event.target.value));
     }
 
     return (

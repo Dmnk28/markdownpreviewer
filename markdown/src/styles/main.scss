@@ -12,4 +12,10 @@ body {
 #preview {
     width: 70vw;
     padding: 16.5px 14px;
+
+    p {
+    img {
+        max-width: 300px;
+        max-height: 400px;
+    }}
 }
