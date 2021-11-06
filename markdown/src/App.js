@@ -15,7 +15,9 @@ const App = () => {
 Its a quick and dirty finished FreeCodeCamp-Project. I focussed on the Code rather than style. It wasn't my favourite project, but I learned a lot. 
   
 ## What I learned
-I learned to solve tasks taking hours for implementing all on my own by using libraries and therefore saving time in the development process. The carefull reading of the Documentation resultet in me wanting to implement some HTMLsanitization as well. 
+I learned to solve tasks taking hours for implementing all on my own by using libraries and therefore saving time in the development process. 
+
+The carefull reading of the [marked](https://marked.js.org/) Documentation resultet in me wanting to implement some HTMLsanitization as well. 
   
 Sanitization was made with DOMPurify, but the FCC-Testsuite didn't accept the sanitized HTML (some element attributes where swapped in their declaration order and causing and error in the automated test, which expected the marked-libraries declaration order).
   
@@ -36,7 +38,7 @@ if (x) {
 **bold**
 _italic_
   
-> Blockquote
+>Blockquote
 
 - Ullist
 - second item
