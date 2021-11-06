@@ -1,4 +1,4 @@
-# A siple Markdown Previewer
+const readme_copy = `# A siple Markdown Previewer
 Its a quick and dirty finished FreeCodeCamp-Project. I focussed on the Code rather than style. It wasn't my favourite project, but I learned a lot. 
 
 # What I learned
@@ -15,4 +15,6 @@ Despite me not willing to continue improving this project any further, it has be
 
 ## Project-URL:
 You can find the project in the wild on my [webpage](https://do-webdev.de/), which might be under construction. 
-But the Project is already reachable: [https://do-webdev.de/projects/markdown/](https://do-webdev.de/projects/markdown/).
+But the Project is already reachable: [https://do-webdev.de/projects/markdown/](https://do-webdev.de/projects/markdown/).`;
+
+export default readme_copy;
